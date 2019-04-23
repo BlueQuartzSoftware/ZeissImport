@@ -216,7 +216,7 @@ void SeparateDataSets::execute()
     ImageGeom::Pointer newGeom = ImageGeom::New();
     SizeVec3Type dims = originalGeom->getDimensions();
     newGeom->setDimensions(dims);
-    FloatVec3Type spacing = originalGeom->getSpacing();
+    // FloatVec3Type spacing = originalGeom->getSpacing();
     newGeom->setSpacing(FloatVec3Type(scaleFactorForX, scaleFactorForY, 0.0f));
     FloatVec3Type origin = originalGeom->getOrigin();
     newGeom->setOrigin(FloatVec3Type(stagePositionX, stagePositionY, origin[2]));
