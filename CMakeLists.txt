@@ -1,7 +1,7 @@
 #--////////////////////////////////////////////////////////////////////////////
 #-- Your License or copyright can go here
 #--////////////////////////////////////////////////////////////////////////////
-
+message(FATAL_ERROR "This repository has been merged into the https://www.github.com/bluequartzsoftware/ITKImageProcessing  Plugin repository. Please do not use this code base.")
 set(PLUGIN_NAME ZeissImport)
 set(${PLUGIN_NAME}_VERSION "1.0")
 set(${PLUGIN_NAME}_VERSION_MAJOR "1")
